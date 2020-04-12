@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link href="stylesTmp.css" rel="stylesheet">
+        <link href="Service.css" rel="stylesheet">
+        <title>Nabeel</title>
+        <script  src="./popover.js"></script>
+
+    </head>
+    <body>
+
+        <img id="one" src="/Users/nabeelquryshi/Desktop/CS50PSET8/assets/plus.png" data-trigger="hover" data-toggle="popover" tabindex="50" data-content="How do I operate GPS?" data-placement="right" title="Outdoor"/>
+        <img id="two" src="/Users/nabeelquryshi/Desktop/CS50PSET8/assets/plus.png" data-trigger="hover" data-toggle="popover" tabindex="50" data-content="How does car maintenance work?" data-placement="right" title="Mechanical"/>
+        <img id="three" src="/Users/nabeelquryshi/Desktop/CS50PSET8/assets/plus.png" data-trigger="hover" data-toggle="popover" tabindex="50" data-content="How do I connect my phone to bluetooth?" data-placement="right" title="Phone"/>
+        <img id="four" src="/Users/nabeelquryshi/Desktop/CS50PSET8/assets/plus.png" data-trigger="hover" data-toggle="popover" tabindex="50" data-content="How do I send a picture to my son?" data-placement="right" title="Tech"/>
+        <img id="five" src="/Users/nabeelquryshi/Desktop/CS50PSET8/assets/plus.png" data-trigger="hover" data-toggle="popover" tabindex="50" data-content="Can someone show me how to get my fishing license?" data-placement="right" title="Licenses"/>
+        <img id="six" src="/Users/nabeelquryshi/Desktop/CS50PSET8/assets/plus.png" data-trigger="hover" data-toggle="popover" tabindex="50" data-content="How do I work that new dog walking app?" data-placement="right" title="Apps"/>
+        <img id="seven" src="/Users/nabeelquryshi/Desktop/CS50PSET8/assets/plus.png" data-trigger="hover" data-toggle="popover" tabindex="50" data-content="How do I order something off Instacart?" data-placement="right" title="Apps"/>
+        <img id="eight" src="/Users/nabeelquryshi/Desktop/CS50PSET8/assets/plus.png" data-trigger="hover" data-toggle="popover" tabindex="50" data-content="How does that Uber thing work?" data-placement="right" title="Apps"/>
+
+        <script  src="./MultiLine.js"></script>
+        
+        <h1>How do I 
+            <span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "send an email ?", "order an uber ?", "make a word doc ?", "work the TV ?", "send money ?" ]'></span>
+        </h1>
+
+        <p>
+            Don’t call your grandkids. They’re too busy saving the world. 
+Our hotline is open 24/7 where our agents help you 
+navigate technical troubles without judging.
+        </p>
+
+        <script src="https://js.stripe.com/v3"></script>
+        <button type="button" id="checkout-button-plan_H58yULpeKFpu3j" role="link">Sign Up - Only 5 Dollars!</button>
+        <div id="error-message"></div>
+        <script  src="./Stripe.js"></script>
+
+        <a href="tel:833-235-2355"><button class="menu" id="call">CALL</button></a>
+        <a href="mailto:info@everalabs.com?subject=Tela Service Request&body=Describe your problem here. We'll get back to you within the hour. Send from the email you signed up with."><button class="menu" id="email">EMAIL</button></a>
+        <a href="sms:+18332352355&body=Describe%2520your%2520problem%2520here."><button class="menu" id="sms">SMS</button></a>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Site Map
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="./index.html">Home Page</a>
+              <a class="dropdown-item" href="./success.html">Success</a>
+              <a class="dropdown-item" href="./canceled.html">Canceled</a>
+            </div>
+        </div>
+
+    </body>
+</html>

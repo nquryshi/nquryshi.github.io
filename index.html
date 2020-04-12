@@ -1,62 +1,58 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Stripe Card Elements sample</title>
-    <meta name="description" content="A demo of Stripe Payment Intents" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link href="stylesTmp.css" rel="stylesheet">
+        <title>Nabeel</title>
+    </head>
+    <body>
+        <h1>Hey, I'm Nabeel</h1>
+        
+        <pre id="typewriter">Welcome to my little space of the web! I'm super interested in exploring
+innovation and talking about startup ideas. Here's a list of some of the
+ideas i've been chewing on. Feel free to click on them and explore! </pre>
+        <script  src="./script.js"></script>
 
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/global.css" />
-    <script src="https://js.stripe.com/v3/"></script>
-  </head>
 
-  <!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
+        <button type="button" id="button1">AI DATA</button>
 
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-  id="checkout-button-plan_H4xhUGijWsyunF"
-  role="link"
->
-  Checkout
-</button>
+        <a href="./Service.html"><button type="button" id="button2">SERVICE</button></a>
 
-<div id="error-message"></div>
+        <button type="button" id="button3">FOOD</button>
 
-<script>
-(function() {
-  var stripe = Stripe('pk_live_EMd5N1igHwmKTxgPnVum8ktJ0053tWC3Br');
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-image: url('/Users/nabeelquryshi/Desktop/CS50PSET8/assets/Menu.png')">
+                      
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="./Service.html">Service</a>
+              <a class="dropdown-item" href="./success.html">Success</a>
+              <a class="dropdown-item" href="./canceled.html">Canceled</a>
+            </div>
+          </div>
+        
 
-  var checkoutButton = document.getElementById('checkout-button-plan_H4xhUGijWsyunF');
-  checkoutButton.addEventListener('click', function () {
-    // When the customer clicks on the button, redirect
-    // them to Checkout.
-    stripe.redirectToCheckout({
-      items: [{plan: 'plan_H4xhUGijWsyunF', quantity: 1}],
 
-      // Do not rely on the redirect to the successUrl for fulfilling
-      // purchases, customers may not always reach the success_url after
-      // a successful payment.
-      // Instead use one of the strategies described in
-      // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://nquryshi.github.io/',
-      cancelUrl: 'https://nquryshi.github.io/',
-    })
-    .then(function (result) {
-      if (result.error) {
-        // If `redirectToCheckout` fails due to a browser or network
-        // error, display the localized error message to your customer.
-        var displayError = document.getElementById('error-message');
-        displayError.textContent = result.error.message;
-      }
-    });
-  });
-})();
-</script>
-  <body>
-    
-  </body>
+
+
+
+
+
+
+
+        <!--
+        <h1>TEST
+            <span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "nerdy.", "simple.", "pure JS.", "pretty.", "fun!" ]'></span>
+        </h1>
+        -->
+
+    </body>
 </html>

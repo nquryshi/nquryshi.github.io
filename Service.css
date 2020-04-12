@@ -1,0 +1,149 @@
+body {
+    background-image: url("./assets/Desktop.png");
+    background-color: #cccccc;
+    background-size:100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+   }
+
+h1 {
+    font-family: HelveticaNeue-Medium;
+    font-size: 50px;
+    color: #051F61;
+    letter-spacing: -0.67px;
+    line-height: 37px;
+    position: absolute;
+    TOP:250px; 
+    LEFT:65px;
+}
+
+p {
+    font-family: HelveticaNeue-Light;
+    font-size: 20px;
+    color: #051F61;
+    letter-spacing: 0.28px;
+    line-height: 25px;      
+    position: absolute;
+    width: 500px;
+    TOP: 310px;
+    LEFT: 65px;
+}
+
+button {
+    background: #0272BC;
+    border-radius: 17px;
+    font-family: HelveticaNeue-Medium;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: -0.28px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    position: absolute;
+    TOP: 405px;
+    LEFT: 65px;
+    cursor:pointer;
+}
+
+.menu {
+    background: #0272BC;
+    border-radius: 17px;
+    font-family: HelveticaNeue-Medium;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: -0.28px;
+    position: absolute;
+    cursor:pointer;
+}
+
+#dropdownMenuButton1 {
+    border-color:transparent;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    position: absolute;
+    LEFT:88.3%; 
+    TOP: 120px;
+    height: 45px;
+
+    background-color: #0272BC;
+    border-radius: 17px;
+    font-family: HelveticaNeue-Medium;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: -0.28px;
+}
+
+#call {
+    TOP: 45px;
+    LEFT: 1500px;
+}
+
+#email {
+    TOP: 45px;
+    LEFT: 1343px;
+}
+
+#sms {
+    TOP: 45px;
+    LEFT: 1200px;
+}
+
+
+span {
+    font-family: HelveticaNeue-Medium;
+    font-size: 50px;
+    color: #8EA0D8;
+    letter-spacing: -0.67px;
+    line-height: 37px;
+}
+
+img {
+    width: 30px;
+    position:absolute;
+}
+
+#one {
+    TOP:560px; 
+    LEFT:67px; 
+}
+
+#two {
+    TOP:790px; 
+    LEFT:176px; 
+}
+
+#three {
+    TOP:735px; 
+    LEFT:415px; 
+}
+
+#four {
+    TOP:520px; 
+    LEFT:415px; 
+}
+
+#five {
+    TOP:457px; 
+    LEFT:785px; 
+}
+
+#six {
+    TOP:570px; 
+    LEFT:810px; 
+}
+
+#seven {
+    TOP:779px; 
+    LEFT:1120px; 
+}
+
+#eight {
+    TOP:608px; 
+    LEFT:1555px; 
+}
+
+
+

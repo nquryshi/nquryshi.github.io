@@ -1,0 +1,84 @@
+body {
+    background-image: url("/Users/nabeelquryshi/Desktop/CS50PSET8/assets/background.png");
+    background-color: #cccccc;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   }
+
+h1 {
+    font-family: Futura-Medium;
+    font-size: 110px;
+    color: #FFFFFF;  
+    letter-spacing: 0.86px;
+    position:absolute; 
+    TOP:380px; 
+    LEFT:175px; 
+    WIDTH: 830px;
+}
+
+p {
+    font-family: Futura-Bold;
+    font-size: 19.8px;
+    color: #FFFFFF;
+    letter-spacing: 0.76px;
+    line-height: 30px;
+    position:absolute; 
+    TOP:570px; 
+    LEFT:175px; 
+    WIDTH: 825px;  
+}
+
+
+button {
+    background: #FF2E3B;
+    box-shadow: 0 19px 28px 0 rgba(255,46,59,0.42);
+    font-family: Futura-Bold;
+    font-size: 19.8px;
+    color: #FFFFFF;
+    letter-spacing: 0.76px;
+    text-align: center;
+    line-height: 30px;
+    padding: 12px 45px;
+    cursor: pointer;
+    border: none;
+    position:absolute;
+}
+
+#button1 {
+    TOP:750px; 
+    LEFT:175px; 
+}
+
+#button2 {
+    TOP:750px; 
+    LEFT:500px; 
+}
+
+#button3 {
+    TOP:750px; 
+    LEFT:825px; 
+}
+
+#menuBar {
+    position: absolute;
+    LEFT:100px; 
+}
+
+#dropdownMenuButton {
+    background-color: transparent;
+    border-color:transparent;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    position: absolute;
+    LEFT:92.5%; 
+    TOP: 47px;
+    width: 60px;
+    height: 45px;
+    background:transparent;
+}
+
+.dropdown-toggle::after { 
+    content: none; 
+} 

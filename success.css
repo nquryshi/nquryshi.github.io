@@ -1,0 +1,35 @@
+button {
+    background: #0272BC;
+    border-radius: 17px;
+    font-family: HelveticaNeue-Medium;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: -0.28px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    position: absolute;
+    TOP: 405px;
+    LEFT: 65px;
+    cursor:pointer;
+}
+
+#dropdownMenuButton2 {
+    border-color:transparent;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    position: absolute;
+    LEFT:88.3%; 
+    TOP: 120px;
+    height: 45px;
+
+    background-color: #0272BC;
+    border-radius: 17px;
+    font-family: HelveticaNeue-Medium;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: -0.28px;
+}

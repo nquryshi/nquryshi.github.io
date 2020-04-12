@@ -14,7 +14,7 @@
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
       successUrl: 'http://nquryshi.github.io/success.html',
-      cancelUrl: 'http://nquryshi.github.io/success.html',
+      cancelUrl: 'http://nquryshi.github.io/canceled.html',
     })
     .then(function (result) {
       if (result.error) {

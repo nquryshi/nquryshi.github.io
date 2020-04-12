@@ -1,5 +1,5 @@
 body {
-    background-image: url("/Users/nabeelquryshi/Desktop/CS50PSET8/assets/background.png");
+    background-image: url("./assets/background.png");
     background-color: #cccccc;
     background-size: 100%;
     background-repeat: no-repeat;
